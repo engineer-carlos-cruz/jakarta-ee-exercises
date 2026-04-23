@@ -40,7 +40,7 @@ public class UsuarioServlet extends HttpServlet {
             out.println("<form method='post'>");
             out.println("Username: <input type='text' name='username'><br>");
             out.println("Password: <input type='text' name='password'><br>");
-            out.println("Rol: <select name='rol'><option>ADMIN</option><option>USUARIO</option></select><br>");
+            out.println("Rol: <select name='rol'><option>ADMIN</option><option>USER</option></select><br>");
             out.println("<input type='submit' value='Agregar'>");
             out.println("</form>");
             out.println("</body></html>");

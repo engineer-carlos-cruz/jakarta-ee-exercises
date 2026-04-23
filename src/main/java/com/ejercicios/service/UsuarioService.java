@@ -13,7 +13,7 @@ public class UsuarioService {
 
     public UsuarioService() {
         usuarios.add(new Usuario("admin", "1234", Rol.ADMIN));
-        usuarios.add(new Usuario("user", "pass", Rol.USUARIO));
+        usuarios.add(new Usuario("user", "pass", Rol.USER));
     }
 
     public Usuario buscarPorUsername(String username) {
