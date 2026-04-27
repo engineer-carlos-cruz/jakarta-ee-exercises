@@ -13,7 +13,24 @@
     </style>
 </head>
 <body>
-    <h1>Ejercicio 1: Introducción a JSP</h1>
+    <h1>Ejercicios Jakarta EE</h1>
+    
+    <div class="ejercicios">
+        <h2>Lista de Ejercicios</h2>
+        <ul>
+            <li><a href="ejercicio2.jsp">Ejercicio 2 - Servlets</a></li>
+            <li><a href="ejercicio3.jsp">Ejercicio 3 - Request, Response y Cookies</a></li>
+            <li><a href="ejercicio4.jsp">Ejercicio 4 - Sesiones</a></li>
+            <li><a href="ejercicio5.jsp">Ejercicio 5 - Jakarta CDI</a></li>
+            <li><a href="ejercicio6.jsp">Ejercicio 6 - Jakarta Bean Validation</a></li>
+            <li><a href="ejercicio7.jsp">Ejercicio 7 - Jakarta RESTful Web Services</a></li>
+            <li><a href="ejercicio8.jsp">Ejercicio 8 - Jakarta Persistence (JPA)</a></li>
+            <li><a href="ejercicio9.jsp">Ejercicio 9 - Jakarta WebSocket</a></li>
+            <li><a href="ejercicio10.jsp">Ejercicio 10 - Jakarta Mail</a></li>
+            <li><a href="ejercicio11.jsp">Ejercicio 11 - Jakarta JSON Processing</a></li>
+            <li><a href="ejercicio12.jsp">Ejercicio 12 - Jakarta Concurrency</a></li>
+        </ul>
+    </div>
     
     <%
     String nombre = request.getParameter("nombre");
